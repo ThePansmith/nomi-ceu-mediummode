@@ -1,6 +1,6 @@
 # nomi-ceu: medium mode 
 
-Medium Mode blends together expert mode's new automation challenges (such as no DML, harder chains, etc) with normal mode's faster earlygame, along with some of it's own features. This fork's mode is medium mode by default, but the other modes and their configs are still present.
+Medium Mode blends together expert mode's new automation challenges (such as no DML, harder chains, etc) with normal mode's faster earlygame, along with some of it's own features.
 
 ## A list of Medium Mode changes, compared to hard mode:
 - Steam age has been re-removed
