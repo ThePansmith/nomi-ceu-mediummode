@@ -14,4 +14,5 @@ Medium Mode blends together expert mode's new automation challenges (such as no 
 
 ## Installing
 Simply just paste everything in the overrides folder into your .minecraft folder. By default, your pack difficulty will be changed to medium, if you prefer not having that take place, do not include the config folder in your paste. The reason for both config and config-override existing is so that you can easily switch pack difficulty, in the same way that you would change to normal/hardmode.
+
 If you are on an existing world, run /bq_admin default load to load the hard mode questbook.
