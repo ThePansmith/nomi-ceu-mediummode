@@ -7,7 +7,7 @@ Medium Mode blends together expert mode's new automation challenges (such as no 
 - Wrought Iron can be made via smelting Iron Ingots
 - Charcoal can be made in a furnace again
 - Rubber can be made via hammer again
-- Coins return, refer to its quest for more detail.
+- Coins return, with new things such as ULV covers and qol to spend them on, refer to its quest for more detail.
 - AE2 has been changed to be more like a "New Game+", coming earlier than normal.
 - Steel can be made in an alloy furnace again
 - Various quest fixes
