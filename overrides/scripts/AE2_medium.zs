@@ -270,9 +270,9 @@ recipes.remove(<ore:plateFluix>);
 //Storage Housing
 recipes.remove(<appliedenergistics2:material:39>);
 recipes.addShaped(<appliedenergistics2:material:39>, [
-	[<metaitem:wireFineRedAlloy>, <metaitem:plateElectricalSteel>, <metaitem:wireFineRedAlloy>], 
-	[<metaitem:plateElectricalSteel>, null, <metaitem:plateElectricalSteel>], 
-	[<metaitem:wireFineRedAlloy>, <metaitem:plateElectricalSteel>, <metaitem:wireFineRedAlloy>]]);	
+	[<metaitem:wireFineRedAlloy>, <metaitem:plateSteel>, <metaitem:wireFineRedAlloy>], 
+	[<metaitem:plateSteel>, null, <metaitem:plateSteel>], 
+	[<metaitem:wireFineRedAlloy>, <metaitem:plateSteel>, <metaitem:wireFineRedAlloy>]]);	
 	
 	
 //Illuminated Panel
@@ -405,13 +405,19 @@ recipes.addShaped("manu_glasscable", <appliedenergistics2:part:16> * 4, [
 ]);
 
 recipes.addShapeless("manu_fluixgrind",<appliedenergistics2:material:8>, [
-	<appliedenergistics2:material:7>, <ore:craftingToolMortar>]);
+	<appliedenergistics2:material:7>, <ore:gtceMortars>]);
+	
+recipes.addShapeless("manu_quartzgrind",<gregtech:meta_dust:339>, [
+	<minecraft:quartz>, <ore:gtceMortars>]);
+
+recipes.addShapeless("manu_cquartzgrind",<gregtech:meta_dust:214>, [
+	<gregtech:meta_gem:214>, <ore:gtceMortars>]);	
 	
 recipes.addShapeless("manu_quartzfiber",<appliedenergistics2:part:140>, [
-	<appliedenergistics2:material:11>, <ore:craftingToolWireCutter>]);
+	<appliedenergistics2:material:11>, <ore:gtceMortars>]);
 	
 recipes.addShaped("manu_fluixplate", <moreplates:fluix_plate>, [
-    [null, <ore:craftingToolHardHammer>, null],
+    [null, <ore:gtceHardHammers>, null],
     [null, <ore:gemFluix>, null],
     [null, <ore:gemFluix>, null]
 ]);
